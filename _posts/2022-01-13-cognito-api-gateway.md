@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Cognito - API Gateway"
-date: 2020-01-01
-categories: scripts, cognito, api
+title: "Cognito - API Gateway - bash"
+date: 2022-01-13
+categories: scripts, cognito, api, bash
 github_comments_issueid: 6
 ---
 
-I needed to do some testing of one of our APIs that uses Cognito machine to machine authentication and mTLS but without using Postman - far too easy.
+I needed to do some testing of one of our APIs that uses Cognito machine to machine authentication and mTLS but without using Postman - far too easy. API Gateway uses the mTLS certificate chain of public keys, the request uses the private key and certificate authority certificate.
 
 Getting the access token from Cognito.
 
