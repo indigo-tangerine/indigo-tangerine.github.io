@@ -44,6 +44,12 @@ plugins:
   - jekyll-seo-tag
 
 google_analytics: UA-161773166-1
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    measurement_id: "G-2HCJN2JTTJ"
+    anonymize_ip: true # true, false (default)
 
 paginate: 8
 paginate_path: "/blog/page:num"
