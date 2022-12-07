@@ -5,6 +5,7 @@ date: 2020-03-26
 categories: rubocop, ruby, jaro_winkler, docker
 github_comments_issueid: 2
 ---
+
 Last time I needed to install rubocop in a container I hit the jaro_winkler install problem:
 
 ```(bash)
@@ -42,11 +43,11 @@ As I couldn't find the solution to the problem anywhere on the interwebs or on t
 
 In addition to ruby, the following dependencies need to be installed, in no particular order:
 
-* ruby-etc
-* ruby-dev
-* make
-* gcc
-* libc-dev
+- ruby-etc
+- ruby-dev
+- make
+- gcc
+- libc-dev
 
 And finally...
 
@@ -61,3 +62,11 @@ Successfully installed ruby-progressbar-1.10.1
 Successfully installed unicode-display_width-1.6.1
 Successfully installed rubocop-0.80.1
 ```
+
+<script src="https://utteranc.es/client.js"
+        repo="indigo-tangerine/indigo-tangerine.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

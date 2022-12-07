@@ -32,7 +32,7 @@ And then give no further clues how you (someone running a Windows container for 
 
 ### What's the problem?
 
-Well, it seems that unlike when running Linux where you just pull latest and stuff just works, Windows will only support builds equal to or less than the one you're running. Maybe Linux works this out for you and downloads the most appropriate build? I don't know but it's not an issue I ever ran into before. 
+Well, it seems that unlike when running Linux where you just pull latest and stuff just works, Windows will only support builds equal to or less than the one you're running. Maybe Linux works this out for you and downloads the most appropriate build? I don't know but it's not an issue I ever ran into before.
 
 So there's actually a couple of ways to figure out which tag you need to pick from the massive list of tags for each windows image.
 
@@ -47,3 +47,11 @@ Major  Minor  Build  Revision
 or the About page in Windows Settings/System
 
 ![alt text](https://github.com/ruebroad/ruebroad.github.io/raw/master/images/windows_build_info.png)
+
+<script src="https://utteranc.es/client.js"
+        repo="indigo-tangerine/indigo-tangerine.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

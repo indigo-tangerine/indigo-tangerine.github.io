@@ -60,3 +60,11 @@ resource "bitbucket_repository_variable" "main" {
   secured    = each.value["secured"]
 }
 ```
+
+<script src="https://utteranc.es/client.js"
+        repo="indigo-tangerine/indigo-tangerine.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

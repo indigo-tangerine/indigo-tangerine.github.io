@@ -5,9 +5,10 @@ date: 2020-03-24
 categories: terraform bitbucket json jsonencode python
 github_comments_issueid: 3
 ---
+
 The Terraform Bitbucket provider doesn't currently have resources for deployment environments and variables. Manually adding these is painful but there is an API that can help when coupled with Terraform null resource.
 
-So the plan was to use null resource to launch a python script that called the Bitbucket API and pass terraform map/list variables as json. Before tackling the Terraform code I made sure it all worked passing the json variables to python using a bash shell script. 
+So the plan was to use null resource to launch a python script that called the Bitbucket API and pass terraform map/list variables as json. Before tackling the Terraform code I made sure it all worked passing the json variables to python using a bash shell script.
 
 The trouble started when I tried to pass json from Terraform to Python.
 
@@ -82,3 +83,11 @@ module.xops.module.test.null_resource.build[0]: Creation complete after 3s [id=7
 ```
 
 yay!
+
+<script src="https://utteranc.es/client.js"
+        repo="indigo-tangerine/indigo-tangerine.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -88,3 +88,11 @@ subnet_id_0 = subnet-02d9d3e6004b8cba5
 ```
 
 However, sorting may change the actual order so maybe we need to more care using sort as a solution.
+
+<script src="https://utteranc.es/client.js"
+        repo="indigo-tangerine/indigo-tangerine.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
