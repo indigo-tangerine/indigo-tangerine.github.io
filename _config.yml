@@ -48,7 +48,7 @@ google_analytics: UA-161773166-1
 analytics:
   provider: "google-gtag"
   google:
-    measurement_id: "G-2HCJN2JTTJ"
+    measurement_id: "G-GP4X5TD5SJ"
     anonymize_ip: true # true, false (default)
 
 paginate: 8
